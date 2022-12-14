@@ -1,0 +1,84 @@
+body
+{
+	font-family: Verdana;
+	font-size: 15px;
+  background-color: #05033f;
+  color: white;
+}
+
+.container
+{
+	width: 1400px;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main
+{
+  float: left;
+	width: 760px;
+  height: 570px;
+}
+
+.content
+{
+	float: left;
+	padding: 20px;
+	width: 720px;
+  height: 570px;
+  background-image: url(tlob.png);
+  text-align: center;
+  color: #a38a17;
+  font: luminari;
+}
+
+.footer
+{
+  clear: both;
+	background-color: black;
+	color: white;
+	text-align: center;
+  height: 20px;
+	padding: 20px;
+}
+
+.zdj1
+{
+	float: left;
+  background-image: url(zdj1b.png);
+	width: 300px;
+	min-height: 670px;
+}
+
+.zdj2
+{
+	float: left;
+  background-image: url(zdj2b.png);
+	width: 300px;
+	min-height: 670px;
+}
+
+.zaprot
+{
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.ozdt
+{
+  color: white;
+  text-shadow: 0 0 0.2em rgb(31, 162, 42), 0 0 0.2em #F87,  0 0 0.2em #F87, 0 0 0.2em #F87;
+}
+
+ul {
+  list-style-type:none;
+  color: rgba(226, 222, 222, 0.623);
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgba(226, 222, 222, 0.623);
+}
